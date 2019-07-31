@@ -6,9 +6,9 @@
           <v-toolbar color="primary" dark tabs>
             <v-toolbar-title class="white--text">Send Whatsapp</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-tab href="#tab-4">
-              <v-icon>more_vert</v-icon>
-            </v-tab>
+            <a href="https://send.yplay.online">
+              <font color="white"><v-icon>more_vert</v-icon></font>
+            </a>
             <v-tabs color="primary" slot="extension" slider-color="yellow" v-model="model" grow>
               <v-tab href="#tab-1" >
                 Sederhana
