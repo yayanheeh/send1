@@ -1,15 +1,15 @@
 <template>
   <v-layout wrap row align-center>
     <v-flex xs12 >
-      <span class="subheading primary--text">Guardar Valores</span>
+      <span class="subheading primary--text">Simpan Nilai</span>
     </v-flex>
     <v-flex xs8>
-      <v-autocomplete class="subheading" autocomplete :items="code" item-value="callingCode" return-object v-model="country.default" label="País por defecto"
-        item-text="name"  :error-messages="errors.collect('country')" v-validate="'required'" data-vv-name="country"
+      <v-autocomplete class="subheading" autocomplete :items="code" item-value="callingCode" return-object v-model="country.default" label="Negara default"
+        item-text="name"  :error-messages="errors.collect('country')" v-validate="'required'" data-vv-name="negara"
         required></v-autocomplete>
     </v-flex>
     <v-flex xs4>
-      <v-btn flat @click.native="saveCountry" class="primary--text">Guardar</v-btn>
+      <v-btn flat @click.native="saveCountry" class="primary--text">Simpan</v-btn>
     </v-flex>
     <v-flex xs12>
     </v-flex>
