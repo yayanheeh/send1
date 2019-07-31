@@ -4,20 +4,20 @@
       <v-flex xs12 md6 lg4 offset-lg4 offset-md3>
         <v-card class="cardLayout">
           <v-toolbar color="primary" dark tabs>
-            <v-toolbar-title class="white--text">Enviar Whatsapp</v-toolbar-title>
+            <v-toolbar-title class="white--text">Send Whatsapp</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon>
               <v-icon>more_vert</v-icon>
             </v-btn>
             <v-tabs color="primary" slot="extension" slider-color="yellow" v-model="model" grow>
               <v-tab href="#tab-1" >
-                Simple
+                Sederhana
               </v-tab>
               <v-tab href="#tab-2">
-                Masivo
+                Masif
               </v-tab>
               <v-tab href="#tab-3">
-                Configuración
+               Pengaturan
               </v-tab>
             </v-tabs>
           </v-toolbar>
@@ -44,10 +44,8 @@
       <!-- github and author links -->
       <v-flex xs12 text-xs-center v-if="model==='tab-3'">
         <div class="linkUser">
-          GitHub Repository:
-          <a href="https://github.com/L4fv/Vue-demo-send-whatsapp" target="_blank">GitHub</a>
-          <br/> Other project:
-          <a href="https://trivelapp.com" target="_blank" class="primary--text">Trivleapp</a>
+         © 2019 -
+          <a href="https://instagram.com/kres_008" target="_blank" class="primary--text">Kres_008</a>
         </div>
       </v-flex>
     </v-layout>
