@@ -14,9 +14,9 @@ export const store = new Vuex.Store({
     },
     country: {
       default: {
-        name: "Perú",
-        code: "PE",
-        callingCode: "51"
+        name: "Indonesia",
+        code: "ID",
+        callingCode: "62"
       }
     }
   },
