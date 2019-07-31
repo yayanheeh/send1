@@ -5,7 +5,7 @@
     </v-flex>
     <v-flex xs8>
       <v-autocomplete class="subheading" autocomplete :items="code" item-value="callingCode" return-object v-model="country.default" label="Negara default"
-        item-text="name"  :error-messages="errors.collect('country')" v-validate="'required'" data-vv-name="negara"
+        item-text="name"  :error-messages="errors.collect('country')" v-validate="'required'" data-vv-name="country"
         required></v-autocomplete>
     </v-flex>
     <v-flex xs4>
@@ -17,7 +17,7 @@
       <v-textarea v-model="message.text" label="Mensaje por defecto" placeholder="Hello ..." multi-line auto-grow></v-textarea>
     </v-flex>
     <v-flex xs4>
-      <v-btn flat guardar class="primary--text" @click.native="saveMessage">guardar </v-btn>
+      <v-btn flat guardar class="primary--text" @click.native="saveMessage"> Simpan</v-btn>
     </v-flex>
     
   </v-layout>
