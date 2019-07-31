@@ -61,6 +61,7 @@ import { code } from "./code.js"; //json of country dial
 import SendWhatsapp from "./components/SendWhatsapp";
 import AdvanceSendWhatsapp from "./components/AdvanceSendWhatsapp";
 import SettingComponent from "./components/SettingComponent";
+import Tentang from "./components/Tentang";
 import "vue-awesome/icons/tablet"
 import Icon from "vue-awesome/components/Icon";
 
@@ -69,7 +70,8 @@ export default {
     Icon,
     SendWhatsapp,
     AdvanceSendWhatsapp,
-    SettingComponent
+    SettingComponent,
+    Tentang
   },
   data() {
     return {
