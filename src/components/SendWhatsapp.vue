@@ -20,7 +20,9 @@
             <v-btn block class="primary" type="submit" dark center>
               <v-icon class="mr-2" dark>fab fa-whatsapp</v-icon>Kirim
             </v-btn><br/>
-<center>©2019-Kres_008</center>
+<center>© 2019 -
+          <a href="https://instagram.com/kres_008" target="_blank" class="primary--text">Kres_008</a>
+      </center>
 
           </v-flex>
         </v-layout>
