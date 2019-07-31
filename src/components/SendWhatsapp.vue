@@ -7,7 +7,7 @@
           required return-object></v-autocomplete>
       </v-card-text>
       <v-card-text>
-        <v-text-field type="number" v-model="phoneNumber" auto-focus placeholder="987654321" label="Nomor telepan"
+        <v-text-field type="number" v-model="phoneNumber" auto-focus placeholder="0838510703xx" label="Nomor telepon"
           :error-messages="errors.collect('phoneNumber')" v-validate="'required|numeric'" data-vv-name="phoneNumber"
           required></v-text-field>
       </v-card-text>
@@ -19,7 +19,9 @@
           <v-flex xs6 offset-xs3>
             <v-btn block class="primary" type="submit" dark center>
               <v-icon class="mr-2" dark>fab fa-whatsapp</v-icon>Kirim
-            </v-btn>
+            </v-btn><br/>
+<center>©2019-Kres_008</center>
+
           </v-flex>
         </v-layout>
       </v-card-actions>
