@@ -6,9 +6,9 @@
           <v-toolbar color="primary" dark tabs>
             <v-toolbar-title class="white--text">Send Whatsapp</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn icon>
+            <v-tab href="#tab-4">
               <v-icon>more_vert</v-icon>
-            </v-btn>
+            </v-tab>
             <v-tabs color="primary" slot="extension" slider-color="yellow" v-model="model" grow>
               <v-tab href="#tab-1" >
                 Sederhana
@@ -37,6 +37,11 @@
                   <setting-component :code="code"></setting-component>
                 </v-card-text>
               </v-card>
+            </v-tab-item>
+
+<v-tab-item id="tab-4">
+              <!-- Send Message -->
+              <tentang :code="code"></tentang>
             </v-tab-item>
           </v-tabs-items>
         </v-card>
