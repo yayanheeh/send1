@@ -42,7 +42,7 @@
     },
     computed: {
       label() {
-        return `Enviar mensaje a +${this.country.default.callingCode} ${
+        return `Kode negara +${this.country.default.callingCode} ${
         this.phoneNumber ? this.phoneNumber : ""
       }`;
       },
