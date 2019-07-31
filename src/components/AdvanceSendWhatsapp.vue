@@ -7,16 +7,17 @@
       <br/> 2. Tambahkan nomor untuk dikirim
       <br/> 3. Tulis pesan siaran
       <br/> 4. Klik kirim
-      <br/> <span class="red--text">5. Anda harus menerima pesan dengan LINK daftar siaran (Tidak tersedia)</span>
+      <br/> <span class="red--text">5. Anda harus 
+   menerima pesan dengan LINK daftar siaran (Tidak tersedia)</span>
     </v-card-title>    
     <v-card-text>
       <v-text-field type="number" v-model="ownPhoneNumber" auto-focus placeholder="123456789" label="Nomor anda" :error-messages="errors.collect('ownPhoneNumber')"
         v-validate="'required|numeric'" data-vv-name="ownPhoneNumber" required></v-text-field>
       <v-container fluid pa-0>
         <v-layout wrap row align-center>
-          <v-flex xs12>Lista de difusión</v-flex>
+          <v-flex xs12>Daftar siaran</v-flex>
           <v-flex xs9 text-xs-center>
-            <v-text-field type="number" v-model="phoneNumber" auto-focus placeholder="987654321" label="Número" v-validate="'required|numeric'"
+            <v-text-field type="number" v-model="phoneNumber" auto-focus placeholder="83851070xxx" label="Nomor" v-validate="'required|numeric'"
               data-vv-name="phoneNumber" required @keyup.enter="addPhone(phoneNumber)"></v-text-field>
           </v-flex>
           <v-flex xs3 text-xs-center>
@@ -37,7 +38,7 @@
             </v-layout>
           </v-flex>
           <v-flex xs12>
-            <v-text-field v-model="message.text" label="Mensaje" placeholder="Hello ..." multi-line auto-grow></v-text-field>
+            <v-text-field v-model="message.text" label="Pesan" placeholder="Pesan text..." multi-line auto-grow></v-text-field>
           </v-flex>
         </v-layout>
       </v-container>
