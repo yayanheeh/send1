@@ -14,7 +14,7 @@
     <v-flex xs12>
     </v-flex>
     <v-flex xs8>
-      <v-textarea v-model="message.text" label="Mensaje por defecto" placeholder="Hello ..." multi-line auto-grow></v-textarea>
+      <v-textarea v-model="message.text" label="pesan default" placeholder="Hello ..." multi-line auto-grow></v-textarea>
     </v-flex>
     <v-flex xs4>
       <v-btn flat guardar class="primary--text" @click.native="saveMessage"> Simpan</v-btn>
