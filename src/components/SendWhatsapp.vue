@@ -1,24 +1,24 @@
 <template>
-  <form v-on:submit.prevent="send Whatsapp">
+  <form v-on:submit.prevent="sendWhatsapp">
     <v-card flat>
       <v-card-text>
-        <v-autocomplete autocomplete :items="code" item-value="callingCode" v-model="country.default" label="negara"
-          item-text="name" :error-messages="errors.collect('country')" v-validate="'required'" data-vv-name="negara"
+        <v-autocomplete autocomplete :items="code" item-value="callingCode" v-model="country.default" label="Negara"
+          item-text="name" :error-messages="errors.collect('country')" v-validate="'required'" data-vv-name="country"
           required return-object></v-autocomplete>
       </v-card-text>
       <v-card-text>
-        <v-text-field type="number" v-model="phoneNumber" auto-focus placeholder="987654321" label="Nomor"
-          :error-messages="errors.collect('phoneNumber')" v-validate="'required|numeric'" data-vv-name="nomor telepon"
+        <v-text-field type="number" v-model="phoneNumber" auto-focus placeholder="987654321" label="Nomor telepan"
+          :error-messages="errors.collect('phoneNumber')" v-validate="'required|numeric'" data-vv-name="phoneNumber"
           required></v-text-field>
       </v-card-text>
       <v-card-text>
-        <v-textarea v-model="message.text" :label="label" placeholder="Pesan text..." auto-grow></v-textarea>
+        <v-textarea v-model="message.text" :label="label" placeholder="Pesan text ..." auto-grow></v-textarea>
       </v-card-text>
       <v-card-actions>
         <v-layout wrap row text-xs-center>
           <v-flex xs6 offset-xs3>
             <v-btn block class="primary" type="submit" dark center>
-              <v-icon class="mr-2" dark>fab fa-whatsapp</v-icon>Kirim Pesan
+              <v-icon class="mr-2" dark>fab fa-whatsapp</v-icon>Kirim
             </v-btn>
           </v-flex>
         </v-layout>
