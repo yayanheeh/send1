@@ -46,7 +46,7 @@
     <v-card-actions text-xs-center>
       <v-spacer></v-spacer>
       <v-btn large class="primary" @click.native="advanceSendWhatsapp" dark center>
-        <icon name="whatsapp" class="mr-2" scale="2" dark></icon>Kirim Pesan Massal</v-btn>
+        <icon name="whatsapp" class="mr-2" scale="2" dark></icon>Kirim Pesan Massal</v-btn><br/>
       <center>© 2019 -
           <a href="https://instagram.com/kres_008" target="_blank" class="primary--text">Kres_008</a>
        </center>
