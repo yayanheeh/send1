@@ -9,7 +9,7 @@
             
               <font color="white"><v-icon>more_vert</v-icon></font>
             
-            <v-tabs color="primary" slot="extension" slider-color="yellow" v-model="model" grow>
+            <v-tabs color="primary" slot="extension" slider-color="white" v-model="model" grow>
               <v-tab href="#tab-1" >
                 Sederhana
               </v-tab>
